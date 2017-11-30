@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <list>
+        <i>
+            <img>
+                //a.oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+            <title>
+                strong wallet
+            </title>
+            <desc>
+                camera
+            </desc>
+        </i>
+        <i>
+            <img>
+                //a.oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+            <title>
+                watch
+            </title>
+            <desc>
+                screen
+            </desc>
+        </i>
+        <i>
+            <img>
+                //a.oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+            <title>
+                wallet
+            </title>
+            <desc>
+                laptop
+            </desc>
+        </i>
+    </list>
+    <icon-menu>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    nice car
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    powerful notebook
+                </tip>
+            </i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    tough mobilephone
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    strong laptop
+                </tip>
+            </i>
+        </i>
+    </icon-menu>
+    </data>
+</root>

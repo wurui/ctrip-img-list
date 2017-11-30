@@ -1,0 +1,6 @@
+{
+  "name": "ctrip-img-list",
+  "version": "0.0.1",
+  "apiDependencies": ["list","icon-menu"]
+}
+
