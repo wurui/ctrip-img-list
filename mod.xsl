@@ -16,6 +16,7 @@
 	            </ul>
         	</div>
         	<div class="col2">
+        		
         		<ul class="list" ox-refresh="append">
 		            <xsl:for-each select="data/list/i[position() &lt;=10 and position() mod 2 = 0]">
 		            	<li class="item">
