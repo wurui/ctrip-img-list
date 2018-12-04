@@ -5,11 +5,11 @@
         	<div class="col1">
         		<ul class="list" ox-refresh="append">
 
-		            <xsl:for-each select="data/list/i[position() &lt;=10 and position() mod 2 = 1 ]">
+		            <xsl:for-each select="data/ui-imglist/i[position() &lt;=10 and position() mod 2 = 1 ]">
 		            	<li class="item">
 			            	<img class="img" src="{img}"/>
 			            	<p class="desc">
-			            		<xsl:value-of select="desc"/>
+			            		<xsl:value-of select="title"/>
 			            	</p>
 			            </li>
 		            </xsl:for-each>
@@ -18,11 +18,11 @@
         	<div class="col2">
         		
         		<ul class="list" ox-refresh="append">
-		            <xsl:for-each select="data/list/i[position() &lt;=10 and position() mod 2 = 0]">
+		            <xsl:for-each select="data/ui-imglist/i[position() &lt;=10 and position() mod 2 = 0]">
 		            	<li class="item">
 			            	<img class="img" src="{img}"/>
 			            	<p class="desc">
-			            		<xsl:value-of select="desc"/>
+			            		<xsl:value-of select="title"/>
 			            	</p>
 			            </li>
 		            </xsl:for-each>
