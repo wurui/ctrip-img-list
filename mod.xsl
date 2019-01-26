@@ -2,32 +2,16 @@
     <xsl:template match="/root" name="wurui.ctrip-img-list">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ctrip-img-list" ox-mod="ctrip-img-list">
-        	<div class="col1">
-        		<ul class="list" ox-refresh="append">
-
-		            <xsl:for-each select="data/ui-imglist/i[position() &lt;=10 and position() mod 2 = 1 ]">
-		            	<li class="item">
-			            	<img class="img" src="{img}"/>
-			            	<p class="desc">
-			            		<xsl:value-of select="title"/>
-			            	</p>
-			            </li>
-		            </xsl:for-each>
-	            </ul>
-        	</div>
-        	<div class="col2">
-        		
-        		<ul class="list" ox-refresh="append">
-		            <xsl:for-each select="data/ui-imglist/i[position() &lt;=10 and position() mod 2 = 0]">
-		            	<li class="item">
-			            	<img class="img" src="{img}"/>
-			            	<p class="desc">
-			            		<xsl:value-of select="title"/>
-			            	</p>
-			            </li>
-		            </xsl:for-each>
-	            </ul>
-        	</div>
+        	<div class="list" ox-refresh="append">
+	            <xsl:for-each select="data/ui-imglist/i[position() &lt;=10]">
+	            	<span class="item">
+		            	<img class="img" style="background-image:url({img})" src="http://a.oxm1.cc/img/blank.png"/>
+		            	<em class="desc">
+		            		<xsl:value-of select="title"/>
+		            	</em>
+		            </span>
+	            </xsl:for-each>
+            </div>
         	
         </div>
     </xsl:template>
